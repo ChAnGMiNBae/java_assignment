@@ -15,7 +15,7 @@ public class Application2 {
         double englishScore = 70.8;
 
         int scoreSum = (int) (koreanScore + mathScore + englishScore);
-        int scoreAverage = (int) (koreanScore + mathScore + englishScore) / 3;
+        int scoreAverage = scoreSum / 3;
 
         System.out.println("총점 : " + scoreSum);
         System.out.println("평균 : " + scoreAverage);
