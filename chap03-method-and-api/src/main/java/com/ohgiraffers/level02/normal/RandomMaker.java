@@ -12,8 +12,8 @@ public class RandomMaker {
 
     public static String randomUpperAlpabet(int length) {
         StringBuilder upperAlpabet = new StringBuilder();
-        int min = (int)'A';
-        int max = (int)'Z';
+        int min = 'A';
+        int max = 'Z';
         for (int i = 0; i < length; i++) {
             upperAlpabet.append( (char)randomNumber(min, max) );
         }
